@@ -57,6 +57,12 @@ services:
           value: n8n-service-hcl3.onrender.com
       - key: N8N_PORT
           value: 5678
+      - key: N8N_PROTOCOL
+          value: https
+      - key: N8N_EDITOR_BASE_URL
+          value: https://n8n-service-hcl3.onrender.com
+      - key: N8N_EXTERNAL_HOOKS_URL
+          value: https://n8n-service-hcl3.onrender.com
           
 
 
